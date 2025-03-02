@@ -1,5 +1,7 @@
 let submitFeedbackBtn = document.getElementById("submitFeedback");
 
+console.log("we are in the function")
+
 // Attach an event listener to te button that brings the feedback form
 submitFeedbackBtn.addEventListener("click", function (event) {
     event.preventDefault();
